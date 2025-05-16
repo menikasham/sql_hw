@@ -52,5 +52,5 @@ track_id int,
 col_id int,
 PRIMARY KEY (track_id, col_id),
 FOREIGN KEY (track_id) REFERENCES tracks(id),
-FOREIGN KEY (col_id) REFERENCES album(id)
+FOREIGN KEY (col_id) REFERENCES collection(id)
 );
